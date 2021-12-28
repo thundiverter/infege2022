@@ -38,12 +38,13 @@ for n in range(A1, A2 + 1):
 index = 0
 for n in range(A1, A2 + 1):
 	index += 1
-	dels = []
+	isPrime = True
 	for j in range(2, n // 2 + 1):
 		if n % j == 0:
-			dels.append(j)
+			isPrime = False
+			break
 	
-	if len(dels) == 0:
+	if isPrime:
 		print(index, n)
 ```
 
