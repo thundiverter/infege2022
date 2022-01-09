@@ -57,7 +57,8 @@
 * [Решения заданий Полякова](14/kpolyakov)
 
 #### Задание 15
-> Пусто
+* [Теория](15/theory.md)
+* [Решения заданий Решу ЕГЭ](15/sdamgia)
 
 #### Задание 16
 * [Решения заданий Решу ЕГЭ](16/sdamgia)
@@ -101,7 +102,7 @@
 > Пусто
 
 ### Теории
-[[7]](07/theory.md) [[9]](09/theory.md) [[11]](11/theory.md) [[12]](12/theory.md) [[17]](17/theory.md) [[22]](22/theory.md) [[23]](23/theory.md) [[24]](24/theory.md) [[25]](25/theory.md)
+[7](07/theory.md) · [9](09/theory.md) · [11](11/theory.md) · [12](12/theory.md) · [17](17/theory.md) · [22](22/theory.md) · [23](23/theory.md) · [24](24/theory.md) · [25](25/theory.md)
 
 ### Демо-версии
 * [2022](demo/demo2022)
