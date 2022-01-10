@@ -2,7 +2,7 @@
 
 #### Тип 1. Системный администратор
 ```python
-f = open('26_27423.txt')
+f = open('26.txt')
 
 sn = f.readline().split()
 s = int(sn[0])
