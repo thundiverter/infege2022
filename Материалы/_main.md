@@ -12,3 +12,4 @@
 
 #### Статьи
 * [*itproger.* Всё о сортировке в Python: исчерпывающий гайд](https://tproger.ru/translations/python-sorting/)
+* [*Хабр.* ЗаPython'ил ЕГЭ на сотку или почему Python поможет на ЕГЭ](https://habr.com/ru/post/585718/)
