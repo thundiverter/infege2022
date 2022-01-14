@@ -1,6 +1,7 @@
 ## Вспомогательные материалы
 
 #### Каналы YouTube
+* [Иван Викторович](https://www.youtube.com/c/IoanPlugar_inf/videos)
 * [Алексей Гусев](https://www.youtube.com/user/gusevaleksey/videos)
 
 #### Презентации
