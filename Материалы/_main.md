@@ -1,4 +1,5 @@
 ## Вспомогательные материалы
+* [Решения заданий ЕГЭ (informatikaexpert.ru)](https://informatikaexpert.ru/ege/ege-zadaniya/)
 
 #### Каналы YouTube
 * [Иван Викторович](https://www.youtube.com/c/IoanPlugar_inf/videos)
