@@ -21,15 +21,16 @@ print(sorted(A))
 print('Answer:', len(A) - 1)
 ```
 
-**Если (x ∈ A):**
-```pythonA = set()
+**Наименьшая длина:**
+```python
+A = set()
 
 for x in [i / 10 for i in range(minA, maxA)]:
     if not f(x, A):
         A.add(x)
 ```
 
-**Если ¬(x ∈ A):**
+**Наибольшая длина:**
 ```python
 A = set([i / 10 for i in range(minA, maxA)])
 
