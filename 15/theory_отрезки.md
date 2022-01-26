@@ -18,18 +18,18 @@ print(A)
 ```python
 A = []
 
-for x in range(1, 10000):
-    i = x / 10
+for i in range(1, 10000):
+    i = i / 10
     if not f(i, A):
-        A.add(i)
+        A.append(i)
 ```
 
 **Наибольшая длина:**
 ```python
 A = [i / 10 for i in range(1, 10000)]
 
-for x in range(1, 10000):
-    i = x / 10
+for i in range(1, 10000):
+    i = i / 10
     if not f(i, A):
         A.remove(i)
 ```
