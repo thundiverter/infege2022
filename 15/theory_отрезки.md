@@ -1,50 +1,35 @@
 ## Задание 15 - числовые отрезки
 
 ```python
-p1, p2, q1, q2 = 2, 10, 6, 14
-P = [i / 10 for i in range(p1 * 10, p2 * 10 + 1)]
-Q = [i / 10 for i in range(q1 * 10, q2 * 10 + 1)]
-
-minA = min(p1, q1) * 10 - 1
-maxA = max(p2, q2) * 10 + 1
-
 def f(x, A):
-    return ((x in A) <= (x in P)) or (x in Q)
+    return (130 <= x <= 171) <= (((150 <= x <= 185) and (x not in A)) <= (not (130 <= x <= 171)))
 
-A = set([i / 10 for i in range(10, 201)])
 
-for x in [i / 10 for i in range(10, 201)]:
-    if not f(x, A):
-        A.remove(x)
+A = []
+for x in range(1, 10000):
+    i = x / 10
+    if not f(i, A):
+        A.append(i)
 
-print(sorted(A))
-print('Answer:', len(A) - 1)
+print(A)
 ```
 
 **Наименьшая длина:**
 ```python
-A = set()
+A = []
 
-for x in [i / 10 for i in range(minA, maxA)]:
-    if not f(x, A):
-        A.add(x)
+for x in range(1, 10000):
+    i = x / 10
+    if not f(i, A):
+        A.add(i)
 ```
 
 **Наибольшая длина:**
 ```python
-A = set([i / 10 for i in range(minA, maxA)])
+A = [i / 10 for i in range(1, 10000)]
 
-for x in [i / 10 for i in range(minA, maxA)]:
-    if not f(x, A):
-        A.remove(x)
-```
-
-**Длина промежутка:**
-```python
-print(len(A) - 1)
-```
-
-**Количество элементов во множестве:**
-```python
-print(len(A))
+for x in range(1, 10000):
+    i = x / 10
+    if not f(i, A):
+        A.remove(i)
 ```
