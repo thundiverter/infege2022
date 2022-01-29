@@ -4,38 +4,27 @@
 > Опре­де­ли­те мак­си­маль­ное ко­ли­че­ство иду­щих под­ряд сим­во­лов, среди ко­то­рых каж­дые два со­сед­них раз­лич­ны.
 
 ```python
-with open('24.txt', 'r') as f:
-	s = list(f.readline())
-	maxlen = 0
-	l = 1
-	
-	for i in range(1, len(s)):
-		if s[i] != s[i - 1]:
-			l += 1
-			if l > maxlen:
-				maxlen = l
-		else:
-			l = 1
+import re
+f = open('24.txt')
+s = f.readline()[:-2]
 
-print(maxlen)
+m = re.split(r'(\w)\1', s)
+p = [len(j) + 1 for j in m]
+
+print(max(p))
 ```
 
 #### Тип 2
 > Опре­де­ли­те длину самой длин­ной по­сле­до­ва­тель­но­сти, со­сто­я­щей из сим­во­лов X. Хотя бы один сим­вол X на­хо­дит­ся в по­сле­до­ва­тель­но­сти.
 
 ```python
-with open('24.txt', 'r') as f:
-	s = list(f.readline())
-	maxlen = 0
-	l = 1
-	
-	for i in range(1, len(s)):
-		if s[i] == s[i - 1] == 'X':
-			l += 1
-			if l > maxlen:
-				maxlen = l
-		else:
-			l = 1
+f = open('24.txt')
 
-print(maxlen)
+s = f.readline()[:-2]
+s = s.replace('Y', ' ').replace('Z', ' ')
+s = s.split()
+
+p = [len(i) for i in s]
+
+print(max(p))
 ```
