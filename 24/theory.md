@@ -28,3 +28,17 @@ p = [len(i) for i in s]
 
 print(max(p))
 ```
+
+#### Тип 3
+> Опре­де­ли­те мак­си­маль­ную длину це­поч­ки вида XYZXYZXYZ... (со­став­лен­ной из фраг­мен­тов XYZ, по­след­ний фраг­мент может быть не­пол­ным).
+
+```python
+import re
+f = open('24.txt')
+s = f.readline()[:-2]
+
+m = re.findall(r'(?:XYZ)+(?:XY?)?', s)
+p = [len(j) for j in m]
+
+print(max(p))
+```
