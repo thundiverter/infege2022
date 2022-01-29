@@ -1,8 +1,9 @@
 ## Задания 19-21
 
-### Две кучи
+Ниже приведен шаблон решений заданий 19-21 с двумя кучами. При решении задани задач с одной кучей просто уберите *x*.
 
-#### Задание 19
+---
+
 * **x** — количество камней в первой куче (дано в условии);
 * **S** — количество камней во второй куче (надо найти);
 * **[A, B]** — значения, которые может принимать *S* (A ≤ S ≤ B);
@@ -13,8 +14,9 @@
 
 Пусть будут следующие действия:
 * добавить 4 камня;
-* увеличить количество камней в 3 раза;
+* увеличить количество камней в 3 раза.
 
+#### Задание 19
 ```python
 Smax, x, A, B = ...
 
@@ -32,8 +34,7 @@ for i in range(A, B + 1):
 
 #### Задание 20
 ```python
-Smax = 77
-x = 7
+Smax, x, A, B = ...
 
 def f(x, S, turn):
     global Smax
@@ -45,11 +46,11 @@ def f(x, S, turn):
         return False
     
     if turn % 2 == 0:
-                return f(x + 1, S, turn + 1) or f(x, S + 1, turn + 1) or f(x * 2, S, turn + 1) or f(x, S * 2, turn + 1)
+        return f(x + 1, S, turn + 1) or f(x, S + 1, turn + 1) or f(x * 2, S, turn + 1) or f(x, S * 2, turn + 1)
     else:
-                return f(x + 1, S, turn + 1) and f(x, S + 1, turn + 1) and f(x * 2, S, turn + 1) and f(x, S * 2, turn + 1)
+        return f(x + 1, S, turn + 1) and f(x, S + 1, turn + 1) and f(x * 2, S, turn + 1) and f(x, S * 2, turn + 1)
 
-for i in range(1, 69):
+for i in range(A, B + 1):
     if f(x, i, 0):
         print(i)
 ```
