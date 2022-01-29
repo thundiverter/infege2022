@@ -60,3 +60,25 @@ p = [len(j) for j in m]
 
 print(max(p))
 ```
+
+#### Тип 5
+> Тек­сто­вый файл со­дер­жит толь­ко за­глав­ные буквы ла­тин­ско­го ал­фа­ви­та (ABC…Z). Опре­де­ли­те сим­вол, ко­то­рый чаще всего встре­ча­ет­ся в файле сразу после буквы A.
+
+```python
+import re
+f = open('24.txt')
+
+a = f.readline()
+
+l = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+c = {}
+for i in l:
+	c[i] = 0
+
+m = re.findall(r'A\w?', a)
+
+for i in m:
+	c[i[1]] += 1
+
+print( max(c, key=c.get) ) 
+```
