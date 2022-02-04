@@ -7,18 +7,17 @@
 
 *Вариант решения 1:*
 ```python
-with open('24.txt', 'r') as f:
-	s = list(f.readline())
-	maxlen = 0 # максимальная длина
-	l = 1 # текущая длина
+f = open('24.txt')
+s = list(f.readline())
+maxlen = 0 # максимальная длина
+l = 1 # текущая длина
 	
-	for i in range(1, len(s)):
-		if s[i] != s[i - 1]:
-			l += 1
-			if l > maxlen:
-				maxlen = l
-		else:
-			l = 1
+for i in range(1, len(s)):
+	if s[i] != s[i - 1]:
+		l += 1
+		maxlen = max(maxlen, l)
+	else:
+		l = 1
 
 print(maxlen)
 ```
@@ -53,7 +52,7 @@ print(max(p))
 > Опре­де­ли­те мак­си­маль­ную длину це­поч­ки вида XYZXYZXYZ... (со­став­лен­ной из фраг­мен­тов XYZ, по­след­ний фраг­мент может быть не­пол­ным).
 
 ```python
-f = open('24_27689.txt')
+f = open('24.txt')
 
 a = f.readline()
 s = 'XYZ'
@@ -91,6 +90,7 @@ for i in m:
 print( max(c, key=c.get) ) 
 ```
 
+<!--
 ### Регулярные выражения в Python
 
 Для работы с регулярными выражениями используется библиотека **re**.
@@ -113,3 +113,4 @@ import re
 ``re.sub(value, replaceWith, string)``
 
 Заменяет совпадения в строке *string* на строку *(replaceWith)*.
+-->
