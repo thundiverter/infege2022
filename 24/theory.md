@@ -53,14 +53,20 @@ print(max(p))
 > Опре­де­ли­те мак­си­маль­ную длину це­поч­ки вида XYZXYZXYZ... (со­став­лен­ной из фраг­мен­тов XYZ, по­след­ний фраг­мент может быть не­пол­ным).
 
 ```python
-import re
-f = open('24.txt')
-s = f.readline()[:-2]
+f = open('24_27689.txt')
 
-m = re.findall(r'(?:XYZ)+(?:XY?)?', s)
-p = [len(j) for j in m]
+a = f.readline()
+s = 'XYZ'
 
-print(max(p))
+while (s in a):
+    if s[-1] == 'X':
+        s += 'Y'
+    elif s[-1] == 'Y':
+        s += 'Z'
+    elif s[-1] == 'Z':
+        s += 'X'
+
+print( len(s) - 1 )
 ```
 
 #### Тип 5
