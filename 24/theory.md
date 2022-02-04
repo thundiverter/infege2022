@@ -72,22 +72,20 @@ print( len(s) - 1 )
 > Тек­сто­вый файл со­дер­жит толь­ко за­глав­ные буквы ла­тин­ско­го ал­фа­ви­та (ABC…Z). Опре­де­ли­те сим­вол, ко­то­рый чаще всего встре­ча­ет­ся в файле сразу после буквы A.
 
 ```python
-import re
 f = open('24.txt')
 
 a = f.readline()
 
 l = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-c = {}
-for i in l:
-	c[i] = 0
+s = {}
+for j in l:
+    s[j] = 0
 
-m = re.findall(r'A\w?', a)
+for i in range(1, len(a) - 1):
+    if a[i-1] == a[i+1]:
+        s[ a[i] ] += 1
 
-for i in m:
-	c[i[1]] += 1
-
-print( max(c, key=c.get) ) 
+print(max(s, key=s.get))
 ```
 
 <!--
