@@ -137,6 +137,26 @@ print(max(s, key=s.get))
 ### Тип 8
 > В строках, содержащих менее 25 букв A, нужно определить и вывести максимальное расстояние между одинаковыми буквами в одной строке.
 
+```python
+f = open('24.txt')
+a = f.readlines()
+
+maxdst = 0
+
+for i in a:
+	if i.count('A') < 25:
+		
+		dst = 0
+		for j in i:
+			if i.count(j) > 1:
+				d = i.rfind(j) - i.find(j)
+				dst = max(dst, d)
+		
+		maxdst = max(maxdst, dst)
+
+print(maxdst)
+```
+
 [35998](35998.md), [36879](36879.md)
 
 ### Тип 9
