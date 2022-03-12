@@ -19,7 +19,6 @@ for n in r:
         nums.append(n)
         primecount += 1
 
-print(nums[-1], nums[-2])
 print( abs( nums[0] - nums[1] ) )
 ```
 **Ответ:** 150.
