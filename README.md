@@ -133,3 +133,9 @@
 ### Другое
 * [Вспомогательные материалы](Материалы/_main.md)
 * [Сниппеты](snippets)
+
+
+### Источники
+* [Решу ЕГЭ](https://inf-ege.sdamgia.ru/)
+* [Поляков](https://kpolyakov.spb.ru/school/ege/generate.htm)
+* [kompege](https://kompege.ru/)
