@@ -283,7 +283,7 @@ print(count)
 
 #### Решение #1 (Python)
 ```python
-for i in range(143, 1000):
+for i in range(144, 1000):
     s = '1' * i
 
     while ('111' in s) or ('ЫЫЫ' in s):
@@ -296,4 +296,4 @@ for i in range(143, 1000):
         print(i)
         break
 ```
-**Ответ:** 143.
+**Ответ:** 167.
