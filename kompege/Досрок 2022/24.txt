@@ -1,0 +1,13 @@
+#### Решение #1 (Python)
+```python
+f = open('24.txt')
+s = f.readline()
+
+s = s.replace('AB', 'X').replace('AC', 'Y')
+s = s.replace('A', ' ').replace('B', ' ').replace('C', ' ')
+s = s.split()
+
+l = [len(i) for i in s]
+print(max(l))
+```
+**Ответ:** 19.
