@@ -3,7 +3,7 @@
 
 ### Задания
 
-|    | <!--Теория--> | <!--Решу ЕГЭ--> | <!--Поляков--> | <!--kompege--> | <!-- курс kompege --> |
+|  № | Теория | [Решу ЕГЭ](https://inf-ege.sdamgia.ru/) | [Поляков](https://kpolyakov.spb.ru/school/ege/generate.htm) | [kompege](https://kompege.ru/) | [Курс kompege](https://kompege.ru/course) |
 |----|-----------------|-------------------|------------------|------------------|-|
 | 1 | <!--[Теория](01/README.md)--> | [Решу ЕГЭ](01/sdamgia) | [Поляков](01/kpolyakov) | <!--[kompege](01/kompege)--> |
 | 2 | [Теория](02/README.md) | [Решу ЕГЭ](02/sdamgia) | [Поляков](02/kpolyakov) | [kompege](02/kompege) | [Курс kompege](kompege/Открытый%20курс/05) |
@@ -169,8 +169,9 @@
 * [Вспомогательные материалы](Материалы/_main.md)
 * [Сниппеты](snippets)
 
-
+<!--
 ### Источники
 * [Решу ЕГЭ](https://inf-ege.sdamgia.ru/)
 * [Поляков](https://kpolyakov.spb.ru/school/ege/generate.htm)
 * [kompege](https://kompege.ru/)
+-->
