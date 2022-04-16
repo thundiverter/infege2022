@@ -10,7 +10,7 @@
 | *[3](03)* | <!--[Теория](03/README.md)--> | [Решу ЕГЭ](03/sdamgia) | [Поляков](03/kpolyakov) | [kompege](03/kompege) |
 | *[4](04)* | [Теория](04/README.md) | [Решу ЕГЭ](04/sdamgia) | [Поляков](04/kpolyakov) | [kompege](04/kompege) |
 | *[5](05)* | <!--[Теория](05/README.md)--> | [Решу ЕГЭ](05/sdamgia) | [Поляков](05/kpolyakov) | [kompege](05/kompege) |
-| *[6](06)* | <!--[Теория](06/README.md)--> | [Решу ЕГЭ](06/sdamgia) | [Поляков](06/kpolyakov) | <!--[kompege](06/kompege)--> |
+| *[6](06)* | <!--[Теория](06/README.md)--> | [Решу ЕГЭ](06/sdamgia) | [Поляков](06/kpolyakov) | [kompege](06/kompege) |
 | *[7](07)* | [Теория](07/README.md) | [Решу ЕГЭ](07/sdamgia) | [Поляков](07/kpolyakov) | [kompege](07/kompege) | [Курс kompege](kompege/Открытый%20курс/02) |
 | *[8](08)* | [Теория](08/README.md) | [Решу ЕГЭ](08/sdamgia) | [Поляков](08/kpolyakov) | [kompege](08/kompege) | [Курс kompege](kompege/Открытый%20курс/03) |
 | *[9](09)* | [Теория](09/README.md) | [Решу ЕГЭ](09/sdamgia) | [Поляков](09/kpolyakov) | [kompege](09/kompege) |
