@@ -27,7 +27,7 @@
 | *[22](22)* | [Теория](22/README.md) | [Решу ЕГЭ](22/sdamgia) | [Поляков](22/kpolyakov) | [kompege](22/kompege) |
 | *[23](23)* | [Теория](23/README.md) | [Решу ЕГЭ](23/sdamgia) | [Поляков](23/kpolyakov) | [kompege](23/kompege) |
 | *[24](24)* | [Теория](24/README.md) | [Решу ЕГЭ](24/sdamgia) | [Поляков](24/kpolyakov) | [kompege](24/kompege) |
-| *[25](25)* | [Теория](25/README.md) | [Решу ЕГЭ](25/sdamgia) | [Поляков](25/kpolyakov) | [kompege](25/kompege) |
+| *[25](25)* | [Теория](25/README.md) | [Решу ЕГЭ](25/sdamgia) | [Поляков](25/kpolyakov) | [kompege](25/kompege) | [Курс kompege](kompege/Открытый%20курс/25) |
 | *[26](26)* | [Теория](26/README.md) | [Решу ЕГЭ](26/sdamgia) | [Поляков](26/kpolyakov) | [kompege](26/kompege) |
 | *[27](27)* | <!--[Теория](27/README.md)--> | [Решу ЕГЭ](27/sdamgia) | <!--[Поляков](27/kpolyakov)--> | <!--[kompege](27/kompege)--> |
 
