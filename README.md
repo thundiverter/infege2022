@@ -3,8 +3,8 @@
 
 ### Задания
 
-|  № | Теория | [Решу ЕГЭ](https://inf-ege.sdamgia.ru/) | [Поляков](https://kpolyakov.spb.ru/school/ege/generate.htm) | [kompege](https://kompege.ru/) | [Курс kompege](https://kompege.ru/course) |
-|----|-----------------|-------------------|------------------|------------------|-|
+|  № | Теория | [Решу ЕГЭ](https://inf-ege.sdamgia.ru/) | [Поляков](https://kpolyakov.spb.ru/school/ege/generate.htm) | [kompege](https://kompege.ru/) | [Курс kompege](https://kompege.ru/course) | Крылов 2022 |
+|----|-----------------|-------------------|------------------|------------------|-|-|
 | *[1](01)* | <!--[Теория](01/README.md)--> | [Решу ЕГЭ](01/sdamgia) | [Поляков](01/kpolyakov) | <!--[kompege](01/kompege)--> |
 | *[2](02)* | [Теория](02/README.md) | [Решу ЕГЭ](02/sdamgia) | [Поляков](02/kpolyakov) | [kompege](02/kompege) | [Курс kompege](kompege/Открытый%20курс/05) |
 | *[3](03)* | <!--[Теория](03/README.md)--> | [Решу ЕГЭ](03/sdamgia) | [Поляков](03/kpolyakov) | [kompege](03/kompege) |
@@ -20,7 +20,7 @@
 | *[13](13)* | <!--[Теория](13/README.md)--> | [Решу ЕГЭ](13/sdamgia) | [Поляков](13/kpolyakov) | <!--[kompege](13/kompege)--> |
 | *[14](14)* | [Теория](14/README.md) | [Решу ЕГЭ](14/sdamgia) | [Поляков](14/kpolyakov) | [kompege](14/kompege) | [Курс kompege](kompege/Открытый%20курс/04) |
 | *[15](15)* | [Теория](15/README.md) | [Решу ЕГЭ](15/sdamgia) | [Поляков](15/kpolyakov) | [kompege](15/kompege) |
-| *[16](16)* | <!--[Теория](16/README.md)--> | [Решу ЕГЭ](16/sdamgia) | [Поляков](16/kpolyakov) | [kompege](16/kompege) | [Курс kompege 1](kompege/Открытый%20курс/13) - [2](kompege/Открытый%20курс/14) |
+| *[16](16)* | <!--[Теория](16/README.md)--> | [Решу ЕГЭ](16/sdamgia) | [Поляков](16/kpolyakov) | [kompege](16/kompege) | [Курс kompege 1](kompege/Открытый%20курс/13) - [2](kompege/Открытый%20курс/14) | [Крылов 2022](Сборники/Крылов%202022/16) |
 | *[17](17)* | [Теория](17/README.md) | [Решу ЕГЭ](17/sdamgia) | [Поляков](17/kpolyakov) | [kompege](17/kompege) |
 | *[18](18)* | <!--[Теория](18/README.md)--> | [Решу ЕГЭ](18/sdamgia) | [Поляков](18/kpolyakov) | [kompege](18/kompege) |
 | *[19-21](19-21)* | [Теория](19-21/README.md) | [Решу ЕГЭ](19-21/sdamgia) | [Поляков](19-21/kpolyakov) | [kompege](19-21/kompege) |
