@@ -118,6 +118,8 @@ for a in range(-100, 100):
 ### Задание 8
 ![](https://github.com/Thundiverter/infege2022/blob/main/repofiles/298294749724314.png?raw=true)
 
+![](https://github.com/Thundiverter/infege2022/blob/main/repofiles/298294749724314_2083.png?raw=true)
+
 
 **Ответ:** 59.
 
@@ -333,7 +335,6 @@ print( abs(nums[0] - nums[1]) )
 ### Задание 21
 ![](https://github.com/Thundiverter/infege2022/blob/main/repofiles/9756290287892790.png?raw=true)
 
-![](https://github.com/Thundiverter/infege2022/blob/main/repofiles/298294749724314_2083.png?raw=true)
 **Ответ:** 11.
 
 ### Задание 22
