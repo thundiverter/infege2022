@@ -19,7 +19,7 @@
 | *[12](12)* | [Теория](12/README.md) | [Решу ЕГЭ](12/sdamgia) | [Поляков](12/kpolyakov) | [kompege](12/kompege) | [Курс kompege](kompege/Открытый%20курс/12) |
 | *[13](13)* | <!--[Теория](13/README.md)--> | [Решу ЕГЭ](13/sdamgia) | [Поляков](13/kpolyakov) | <!--[kompege](13/kompege)--> |
 | *[14](14)* | [Теория](14/README.md) | [Решу ЕГЭ](14/sdamgia) | [Поляков](14/kpolyakov) | [kompege](14/kompege) | [Курс kompege](kompege/Открытый%20курс/04) | [Крылов 2022](Сборники/Крылов%202022/14) |
-| *[15](15)* | [Теория](15/README.md) | [Решу ЕГЭ](15/sdamgia) | [Поляков](15/kpolyakov) | [kompege](15/kompege) |
+| *[15](15)* | [Теория](15/README.md) | [Решу ЕГЭ](15/sdamgia) | [Поляков](15/kpolyakov) | [kompege](15/kompege) | [Крылов 2022](Сборники/Крылов%202022/15) |
 | *[16](16)* | <!--[Теория](16/README.md)--> | [Решу ЕГЭ](16/sdamgia) | [Поляков](16/kpolyakov) | [kompege](16/kompege) | [Курс kompege 1](kompege/Открытый%20курс/13) - [2](kompege/Открытый%20курс/14) | [Крылов 2022](Сборники/Крылов%202022/16) |
 | *[17](17)* | [Теория](17/README.md) | [Решу ЕГЭ](17/sdamgia) | [Поляков](17/kpolyakov) | [kompege](17/kompege) |
 | *[18](18)* | <!--[Теория](18/README.md)--> | [Решу ЕГЭ](18/sdamgia) | [Поляков](18/kpolyakov) | [kompege](18/kompege) |
