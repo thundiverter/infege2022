@@ -3,6 +3,9 @@
 <br>
 
 # Сборник Крылова (2022)
+
+![](https://raw.githubusercontent.com/Thundiverter/infege2022/main/repofiles/krylov2022-cover.jpeg)
+
 | Задание | Решено |
 |-|-|
 | 1 | 0 / 20 |
@@ -10,7 +13,7 @@
 | 3 | 1 / 20 |
 | 4 | 2 / 20 |
 | 5 | 4 / 20 |
-| 6 | 1 / 20 |
+| 6 | 20 / 20 |
 | 7 | 20 / 20 |
 | 8 | 20 / 20 |
 | 9 | 0 / 20 |
